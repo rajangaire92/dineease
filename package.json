@@ -41,6 +41,7 @@
   "workspaces": [
     "apps/*",
     "libs/contract",
-    "libs/database"
+    "libs/database",
+    "libs/backend-shared"
   ]
 }
