@@ -20,7 +20,6 @@
     "customConditions": ["development"],
     "baseUrl": ".",
     "paths": {
-      "@libs/backend-shared/*": ["libs/backend-shared/src/*"],
       "@libs/contract/*": ["libs/contract/src/*"],
       "@libs/database/*": ["libs/database/src/*"]
     }
