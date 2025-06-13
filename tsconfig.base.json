@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
     "composite": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,
@@ -12,10 +13,16 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": ".",
+    "paths": {
+      "@libs/backend-shared/*": ["libs/backend-shared/src/*"],
+      "@libs/contract/*": ["libs/contract/src/*"],
+      "@libs/database/*": ["libs/database/src/*"]
+    }
   }
 }

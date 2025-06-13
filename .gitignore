@@ -44,3 +44,9 @@ Thumbs.db
 .github/instructions/nx.instructions.md
 
 test-output
+
+# Environment Variables
+.env
+
+# Generated Files
+__generated__
