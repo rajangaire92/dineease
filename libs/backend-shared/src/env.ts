@@ -24,10 +24,6 @@ const envSchema = z.object({
     OTP_AGE: z.number(),
     OTP_SECRET: z.string().min(1),
   }),
-  smtp: z.object({
-    SMTP_AUTH_USER: z.string().min(5),
-    SMTP_AUTH_PASS: z.string().min(5),
-  }),
 });
 
 type TEnv = z.infer<typeof envSchema>;
@@ -45,10 +41,6 @@ const env: TEnv = {
     REFRESH_TOKEN_AGE: Number(process.env['REFRESH_TOKEN_AGE']) || 86400000,
     OTP_AGE: Number(process.env['OTP_AGE']) || 50,
     OTP_SECRET: process.env['OTP_SECRET'] || '',
-  },
-  smtp: {
-    SMTP_AUTH_USER: process.env['SMTP_AUTH_USER'] || '',
-    SMTP_AUTH_PASS: process.env['SMTP_AUTH_PASS'] || '',
   },
 };
 
