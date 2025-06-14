@@ -4,6 +4,12 @@
   "include": [],
   "references": [
     {
+      "path": "../backend-shared"
+    },
+    {
+      "path": "../database"
+    },
+    {
       "path": "./tsconfig.lib.json"
     }
   ]

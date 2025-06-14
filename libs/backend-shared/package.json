@@ -18,6 +18,11 @@
     "name": "backend-shared"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "zod": "^3.25.64",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "pino": "^9.7.0",
+    "pino-http": "^10.5.0"
   }
 }
