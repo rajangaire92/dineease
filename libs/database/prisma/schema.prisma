@@ -40,12 +40,12 @@ enum UserRole {
 }
 
 model User {
-  id         String   @id @default(cuid())
-  name       String
-  email      String
-  password   String
-  isVerified Boolean  @default(false)
-  role       UserRole
+  id                String   @id @default(cuid())
+  name              String
+  email             String   @unique
+  password          String
+  is_email_verified Boolean  @default(false)
+  role              UserRole
 
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
