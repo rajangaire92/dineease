@@ -1925,6 +1925,11 @@
   resolved "https://registry.yarnpkg.com/@ts-rest/core/-/core-3.52.1.tgz#ef2df9c5619afe52e050825c689f6ab56820677d"
   integrity sha512-tAjz7Kxq/grJodcTA1Anop4AVRDlD40fkksEV5Mmal88VoZeRKAG8oMHsDwdwPZz+B/zgnz0q2sF+cm5M7Bc7g==
 
+"@ts-rest/express@^3.52.1":
+  version "3.52.1"
+  resolved "https://registry.yarnpkg.com/@ts-rest/express/-/express-3.52.1.tgz#7474c1a3d2ee98906df69a2417a43d6f41205054"
+  integrity sha512-ttVynyJSWYnVzn7FazSFvShD5j3Lq1JsIhSKereV2Z51zxWEQwo35CpCO3Q8rELzkfD9CYoT6eNSBJRlJLogIw==
+
 "@ts-rest/open-api@^3.52.1":
   version "3.52.1"
   resolved "https://registry.yarnpkg.com/@ts-rest/open-api/-/open-api-3.52.1.tgz#1e2bbc50c3b8635f2246ca85ee5568da4480dec0"

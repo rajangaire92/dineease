@@ -13,6 +13,7 @@ import { createAuth } from '@libs/auth';
 
 import * as swaggerUi from 'swagger-ui-express';
 import { openApiDocument } from './utils/swagger';
+import { generateEndPoints } from './routers/merge';
 
 logger.debug(env, 'Environment variables');
 
@@ -59,6 +60,8 @@ app.use('/api-docs.json', (req, res) => {
   res.send(openApiDocument);
   res.end();
 });
+
+generateEndPoints(app);
 
 app.use(notFoundHandler);
 

@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/database"
+    },
+    {
       "path": "../../libs/contract"
     },
     {
