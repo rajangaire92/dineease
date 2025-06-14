@@ -19,7 +19,13 @@
   ],
   "references": [
     {
+      "path": "../../libs/contract/tsconfig.lib.json"
+    },
+    {
       "path": "../../libs/auth/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/backend-shared/tsconfig.lib.json"
     }
   ]
 }
